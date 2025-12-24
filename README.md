@@ -8,7 +8,7 @@ Improvements include
 - Smooth colormaps
 - Additional palettes
 - Scientific notation support
-
+![Color palettes](https://github.com/actopozipc/matplotwave/blob/main/Examples/all_palettes.png)
 Keywords: vaporwave matplotlib, aesthetic color palette, retro colors matplotlib, neon plots, 80s aesthetics visualization, synthwave colormap, vaporwave style charts, retrofuturism, y2k, lofi
 
 ## Installation
