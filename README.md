@@ -131,9 +131,25 @@ Althrough this was in the original branch, it was never documented properly. Cle
 
     matplotwave.despine(plt.gca())  # Remove top and right spines
     matplotwave.despine(plt.gca(), all=True)  # Remove all spines and ticks
+
+
     
 Adjust global font size:
 
     matplotwave.font_size(14)
 
 
+## Contribution and Citation
+This project is released as open source software under the MIT License. You are free to use, modify, and redistribute the code in both academic and commercial contexts.
+
+Contributions are very welcome: you can contribute by opening issues, submitting pull requests, proposing new palettes, improving documentation, or adding examples and demonstrations.
+
+If you use this project in a scientific publication or other public-facing work, a citation or acknowledgment would be greatly appreciated, since I strongly believe that aesthetically well-designed plots are key to bringing scientific work to a broader audience. Clear, expressive, and visually engaging figures can significantly improve how research is perceived, understood, and shared beyond a narrow expert community, and referencing this project might be a step into this direction.
+
+## Aesthetic fonts in matplotlib
+TODO
+## Issues with the old implementation and why I forked it
+As mentioned earlier, this is a fork of the vapeplot repository. It had several key issues that lead to this fork:
+First of all, some color palettes used very similar colors. Especially when only plotting tow datasets, the lines would often look very similar. 
+Second, as can be seen in one of the examples, some colors are hardly readable on a white background.
+And finally, for me the most important, that the colormaps in vapeplot are just cycling 4 to 5 colors, not a real colormap.
