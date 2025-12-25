@@ -54,7 +54,7 @@ Since crystal pepsi can, dependend on the screen, be hard to read on a white bac
 I either recommend the neon_crystal_pepsi palette, which is just a bit darker:
 <img src="https://github.com/actopozipc/matplotwave/blob/main/Examples/neon_crystal_pepsi.png"/>
 or, if you really want to stick with the soft pastels, the dark mode:
-<img src="https://github.com/actopozipc/matplotwave/blob/main/Examples/crystal_pepsi_dark.png"/>
+<img src="https://github.com/actopozipc/matplotwave/blob/main/Examples/crystal_pepsi_dark.png"/ style="width: 50%;">
 ### windows95
 Inspired by the windows 95 operating system. 
 <img src="https://github.com/actopozipc/matplotwave/blob/main/Examples/windows95.png"/>
@@ -149,7 +149,8 @@ If you use this project in a scientific publication or other public-facing work,
 ## Aesthetic fonts in matplotlib
 TODO
 ## Issues with the old implementation and why I forked it
-As mentioned earlier, this is a fork of the vapeplot repository. It had several key issues that lead to this fork:
-First of all, some color palettes used very similar colors. Especially when only plotting tow datasets, the lines would often look very similar. 
-Second, as can be seen in one of the examples, some colors are hardly readable on a white background.
-And finally, for me the most important, that the colormaps in vapeplot are just cycling 4 to 5 colors, not a real colormap.
+As mentioned earlier, this is a fork of the vapeplot repository. It had several key issues that lead to this fork:  
+
+First of all, some color palettes used very similar colors. Especially when only plotting two datasets, the lines would often look very similar.   
+Second, as can be seen in one of the examples, some colors are hardly readable on a white background.  
+And finally, for me the most important, that the colormaps in vapeplot are just cycling 4 to 5 colors, not a real colormap.  
