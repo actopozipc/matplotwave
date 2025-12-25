@@ -52,9 +52,9 @@ Light pastel colors.
 
 Since crystal pepsi can, dependend on the screen, be hard to read on a white background,
 I either recommend the neon_crystal_pepsi palette, which is just a bit darker:
-<img src="https://github.com/actopozipc/matplotwave/blob/main/Examples/neon_crystal_pepsi"/>
+<img src="https://github.com/actopozipc/matplotwave/blob/main/Examples/neon_crystal_pepsi.png"/>
 or, if you really want to stick with the soft pastels, the dark mode:
-<img src="https://github.com/actopozipc/matplotwave/blob/main/Examples/dark_crystal_pepsi.png"/>
+<img src="https://github.com/actopozipc/matplotwave/blob/main/Examples/crystal_pepsi_dark.png"/>
 ### windows95
 Inspired by the windows 95 operating system. 
 <img src="https://github.com/actopozipc/matplotwave/blob/main/Examples/windows95.png"/>
