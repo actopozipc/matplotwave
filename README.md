@@ -32,6 +32,7 @@ pip install matplotwave
     plt.show()
 
 <img src="https://github.com/actopozipc/matplotwave/blob/main/Examples/quickstart.png" >
+
 ## Color palettes and examples
 ### vaporwave
 Iconic neon pink/blue mix with a lot of different colors.
