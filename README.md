@@ -20,46 +20,64 @@ pip install matplotwave
 
 
 ## Quick Start
+    import seaborn as sns
     import matplotwave
     import matplotlib.pyplot as plt
+    sns.set_theme()
     matplotwave.set_light_theme() #or dark theme
-    matplotwave.set_palette("vaporwave")
-    
-    plt.plot([1, 2, 3, 4], [1, 4, 2, 3])
+    matplotwave.set_palette("windows95")
+    plt.plot([1, 2, 3, 4], [1, 3, 2, 4])
+    plt.plot([1, 2, 3, 4], [2, 1, 3, 2])
+    plt.plot([1, 2, 3, 4], [1.5, 2, 2.5, 3])
     plt.show()
+
 ## Color palettes and examples
 ### vaporwave
 Iconic neon pink/blue mix with a lot of different colors.
 ![vaporwave ridge plot](https://github.com/actopozipc/matplotwave/blob/main/Examples/vaporwave_ridge.png)
 ![vaporwave sinus waves](https://github.com/actopozipc/matplotwave/blob/main/Examples/vaporwave.png)
-![vaporwave dark mode](https://github.com/actopozipc/matplotwave/blob/main/Examples/vaporwave_dark.png)
 
 ### y2k
 Inspired by the y2k-aesthetic
 ![y2k ridge plot](https://github.com/actopozipc/matplotwave/blob/main/Examples/y2k_ridge.png)
 ![y2k sinus waves](https://github.com/actopozipc/matplotwave/blob/main/Examples/y2k.png)
-![y2k dark mode](https://github.com/actopozipc/matplotwave/blob/main/Examples/y2k_dark.png)
 ### cool
 Vibrant magenta and cyan tones
 ![cool ridge plot](https://github.com/actopozipc/matplotwave/blob/main/Examples/cool_ridge.png)
 ![cool sinus waves](https://github.com/actopozipc/matplotwave/blob/main/Examples/cool.png)
-![cool dark mode](https://github.com/actopozipc/matplotwave/blob/main/Examples/cool_dark.png)
 ### crystal_pepsi and neon_crystal_pepsi
 Light pastel colors.
 ![crystal_pepsi ridge plot](https://github.com/actopozipc/matplotwave/blob/main/Examples/crystal_pepsi_ridge.png)
+Since crystal pepsi can, dependend on the screen, be hard to read on a white background,
 ![crystal_pepsi sinus waves](https://github.com/actopozipc/matplotwave/blob/main/Examples/crystal_pepsi.png)
-Since crystal pepsi can, dependend on the screen, be hard to read on a white background, I either recommend the neon_crystal_pepsi palette, which is just a bit darker:
+I either recommend the neon_crystal_pepsi palette, which is just a bit darker:
 ![crystal_pepsi ridge plot](https://github.com/actopozipc/matplotwave/blob/main/Examples/neon_crystal_pepsi_ridge.png)
-![crystal_pepsi sinus waves](https://github.com/actopozipc/matplotwave/blob/main/Examples/neon_crystal_pepsi.png)
 or, if you really want to stick with the soft pastels, the dark mode:
 ![cool dark mode](https://github.com/actopozipc/matplotwave/blob/main/Examples/crystal_pepsi_dark.png)
-![crystal_pepsi sinus waves](https://github.com/actopozipc/matplotwave/blob/main/Examples/neon_crystal_pepsi_dark.png)
-### mallsoft
 ### windows95
+Inspired by the windows 95 operating system. 
+![windows95 ridge plot](https://github.com/actopozipc/matplotwave/blob/main/Examples/windows95_ridge.png)
+![windows95 sinus waves](https://github.com/actopozipc/matplotwave/blob/main/Examples/windows95.png)
+### mallsoft
+Soft shopping mall pastels
+![mallsoft ridge plot](https://github.com/actopozipc/matplotwave/blob/main/Examples/mallsoft_ridge.png)
+![mallsoft sinus waves](https://github.com/actopozipc/matplotwave/blob/main/Examples/mallsoft.png)
 ### Jazzcup
+Classic 90s jazz cup design colors
+![jazzcup ridge plot](https://github.com/actopozipc/matplotwave/blob/main/Examples/jazzcup_ridge.png)
+![jazzcup sinus waves](https://github.com/actopozipc/matplotwave/blob/main/Examples/jazzcup.png)
 ### Sunset
+Warm neon sunset gradient
+![sunset ridge plot](https://github.com/actopozipc/matplotwave/blob/main/Examples/sunset_ridge.png)
+![sunset sinus waves](https://github.com/actopozipc/matplotwave/blob/main/Examples/sunset.png)
 ### Avanti
+Bold red and blue retro scheme [by mike-u](https://github.com/mike-u)
+![sunset ridge plot](https://github.com/actopozipc/matplotwave/blob/main/Examples/avanti_ridge.png)
+![sunset sinus waves](https://github.com/actopozipc/matplotwave/blob/main/Examples/avanti.png)
 ### Seapunk
+Underwater teal and purple vibes
+![sunset ridge plot](https://github.com/actopozipc/matplotwave/blob/main/Examples/seapunk_ridge.png)
+![sunset sinus waves](https://github.com/actopozipc/matplotwave/blob/main/Examples/seapunk.png)
 ## Documentation
 ### view all palettes
 Visualize them:
@@ -87,7 +105,9 @@ Colormaps use linear interpolation between the discrete palette colors to produc
 Some palettes from the original branch like crystal_pepsi use very light colors that can be hard to read on a white background. For these, I recommend the dark theme:
 
     matplotwave.set_dark_theme()
-    
+![vaporwave dark mode](https://github.com/actopozipc/matplotwave/blob/main/Examples/vaporwave_dark.png)
+
+
 In order to switch back:
 
     matplotwave.set_light_theme()
