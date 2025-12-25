@@ -40,8 +40,8 @@ Iconic neon pink/blue mix with a lot of different colors.
 
 ### y2k
 Inspired by the y2k-aesthetic
-![y2k ridge plot](https://github.com/actopozipc/matplotwave/blob/main/Examples/y2k_ridge.png)
-![y2k sinus waves](https://github.com/actopozipc/matplotwave/blob/main/Examples/y2k.png)
+<img src="https://github.com/actopozipc/matplotwave/blob/main/Examples/vaporwave.png"/>
+
 ### cool
 Vibrant magenta and cyan tones
 ![cool ridge plot](https://github.com/actopozipc/matplotwave/blob/main/Examples/cool_ridge.png)
