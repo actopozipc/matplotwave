@@ -103,13 +103,13 @@ Colormaps use linear interpolation between the discrete palette colors to produc
     cmap = matplotwave.cmap("y2k")
     plt.imshow(data, cmap=cmap)
 
-<img src="https://github.com/actopozipc/matplotwave/blob/main/Examples/neon_crystal_pepsi_colormap.png"/>
+<img src="https://github.com/actopozipc/matplotwave/blob/main/Examples/crystal_pepsi_colormap.png" style="width: 50%;"/>
 
 ### Theme Management
 Some palettes from the original branch like crystal_pepsi use very light colors that can be hard to read on a white background. For these, I recommend the dark theme:
 
     matplotwave.set_dark_theme()
-![vaporwave dark mode](https://github.com/actopozipc/matplotwave/blob/main/Examples/vaporwave_dark.png)
+<img src="https://github.com/actopozipc/matplotwave/blob/main/Examples/vaporwave_dark.png" style="width: 50%;"/>
 
 
 In order to switch back:
