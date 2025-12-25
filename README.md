@@ -40,45 +40,45 @@ Iconic neon pink/blue mix with a lot of different colors.
 
 ### y2k
 Inspired by the y2k-aesthetic
-<img src="https://github.com/actopozipc/matplotwave/blob/main/Examples/vaporwave.png"/>
+<img src="https://github.com/actopozipc/matplotwave/blob/main/Examples/y2k.png"/>
 
 ### cool
 Vibrant magenta and cyan tones
-![cool ridge plot](https://github.com/actopozipc/matplotwave/blob/main/Examples/cool_ridge.png)
-![cool sinus waves](https://github.com/actopozipc/matplotwave/blob/main/Examples/cool.png)
+<img src="https://github.com/actopozipc/matplotwave/blob/main/Examples/cool.png"/>
+g)
 ### crystal_pepsi and neon_crystal_pepsi
 Light pastel colors.
-![crystal_pepsi ridge plot](https://github.com/actopozipc/matplotwave/blob/main/Examples/crystal_pepsi_ridge.png)
+<img src="https://github.com/actopozipc/matplotwave/blob/main/Examples/crystal_pepsi.png"/>
+
 Since crystal pepsi can, dependend on the screen, be hard to read on a white background,
-![crystal_pepsi sinus waves](https://github.com/actopozipc/matplotwave/blob/main/Examples/crystal_pepsi.png)
 I either recommend the neon_crystal_pepsi palette, which is just a bit darker:
-![crystal_pepsi ridge plot](https://github.com/actopozipc/matplotwave/blob/main/Examples/neon_crystal_pepsi_ridge.png)
+<img src="https://github.com/actopozipc/matplotwave/blob/main/Examples/neon_crystal_pepsi"/>
 or, if you really want to stick with the soft pastels, the dark mode:
-![cool dark mode](https://github.com/actopozipc/matplotwave/blob/main/Examples/crystal_pepsi_dark.png)
+<img src="https://github.com/actopozipc/matplotwave/blob/main/Examples/dark_crystal_pepsi.png"/>
 ### windows95
 Inspired by the windows 95 operating system. 
-![windows95 ridge plot](https://github.com/actopozipc/matplotwave/blob/main/Examples/windows95_ridge.png)
-![windows95 sinus waves](https://github.com/actopozipc/matplotwave/blob/main/Examples/windows95.png)
+<img src="https://github.com/actopozipc/matplotwave/blob/main/Examples/windows95.png"/>
+
 ### mallsoft
 Soft shopping mall pastels
-![mallsoft ridge plot](https://github.com/actopozipc/matplotwave/blob/main/Examples/mallsoft_ridge.png)
-![mallsoft sinus waves](https://github.com/actopozipc/matplotwave/blob/main/Examples/mallsoft.png)
+<img src="https://github.com/actopozipc/matplotwave/blob/main/Examples/mallsoft.png"/>
+
 ### Jazzcup
 Classic 90s jazz cup design colors
-![jazzcup ridge plot](https://github.com/actopozipc/matplotwave/blob/main/Examples/jazzcup_ridge.png)
-![jazzcup sinus waves](https://github.com/actopozipc/matplotwave/blob/main/Examples/jazzcup.png)
+<img src="https://github.com/actopozipc/matplotwave/blob/main/Examples/jazzcup.png"/>
+
 ### Sunset
 Warm neon sunset gradient
-![sunset ridge plot](https://github.com/actopozipc/matplotwave/blob/main/Examples/sunset_ridge.png)
-![sunset sinus waves](https://github.com/actopozipc/matplotwave/blob/main/Examples/sunset.png)
+<img src="https://github.com/actopozipc/matplotwave/blob/main/Examples/sunset.png"/>
+
 ### Avanti
 Bold red and blue retro scheme [by mike-u](https://github.com/mike-u)
-![sunset ridge plot](https://github.com/actopozipc/matplotwave/blob/main/Examples/avanti_ridge.png)
-![sunset sinus waves](https://github.com/actopozipc/matplotwave/blob/main/Examples/avanti.png)
+<img src="https://github.com/actopozipc/matplotwave/blob/main/Examples/avanti.png"/>
+
 ### Seapunk
 Underwater teal and purple vibes
-![sunset ridge plot](https://github.com/actopozipc/matplotwave/blob/main/Examples/seapunk_ridge.png)
-![sunset sinus waves](https://github.com/actopozipc/matplotwave/blob/main/Examples/seapunk.png)
+<img src="https://github.com/actopozipc/matplotwave/blob/main/Examples/seapunk.png"/>
+
 ## Documentation
 ### view all palettes
 Visualize them:
@@ -102,6 +102,9 @@ Colormaps use linear interpolation between the discrete palette colors to produc
 
     cmap = matplotwave.cmap("y2k")
     plt.imshow(data, cmap=cmap)
+
+<img src="https://github.com/actopozipc/matplotwave/blob/main/Examples/neon_crystal_pepsi_colormap.png"/>
+
 ### Theme Management
 Some palettes from the original branch like crystal_pepsi use very light colors that can be hard to read on a white background. For these, I recommend the dark theme:
 
