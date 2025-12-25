@@ -36,8 +36,7 @@ pip install matplotwave
 ## Color palettes and examples
 ### vaporwave
 Iconic neon pink/blue mix with a lot of different colors.
-![vaporwave ridge plot](https://github.com/actopozipc/matplotwave/blob/main/Examples/vaporwave_ridge.png)
-![vaporwave sinus waves](https://github.com/actopozipc/matplotwave/blob/main/Examples/vaporwave.png)
+<img src="https://github.com/actopozipc/matplotwave/blob/main/Examples/vaporwave.png"/>
 
 ### y2k
 Inspired by the y2k-aesthetic
